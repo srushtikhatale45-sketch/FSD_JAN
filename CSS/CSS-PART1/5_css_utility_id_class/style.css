@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family:"Oswald",sans-serif;
+}
+
+/* id selector #tag */
+#main-heading{
+    color:tomato;
+}
+/* class selector .tag*/
+.main-header{
+    background-color:burlywood;
+}
+
+/* p{
+    color:bluevolet;
+    font-wieght:400;
+} */
+
+/* Developers
+id vs class
+id=less used=don't use same id twice on one page.
+class=more ussed= classes can be used multiple times.
+web theme:
+utility classes(pre-made classes for multiuse) */
+.text-red{
+    color:red;
+}
+.text-green{
+    color:green;
+}
+.bg-grey{
+    background-color:rgb(226,216,132);
+}
+.bg-dark{
+    background-color:rgb(173,105,17);
+}
+/* css exercise */
+.main-header{
+    background-color:rgb(211,194,40);
+}
+.blog-section{
+    background-color:rgb(208,176,138);
+}
+#blog-heading1{
+    color:purple;
+}
+#blog-heading2{
+    color:rgb(237,90,4);
+    font-weight:700;
+}
