@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+input[type="password"]{
+    color:purple;
+}
+input[type="text"]{
+    color:red;
+    background-color: aqua;
+}
+/* a[href="https://www.google.com/"]{
+    color:red;
+} */
+ /* Universal Selector used for particular word */
+ a[href *="google"]{
+    color:red;
+ }
+ /* caret symbol */
+ a[href^="https"]{
+    color:green;
+ }
+ a[href$=".com"]{
+    color:red;
+ }
+ input[type^="t"]{
+    color:green;
+ }
+ input[password^="t"]{
+    color:rebeccapurple;
+ }

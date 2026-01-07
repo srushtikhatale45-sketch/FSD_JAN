@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* div.main-heading h2{
+    text-align:center;
+    background-color:rgb(59,183,183);
+    font-family:'Courier New',Courier,monospace;
+    margin-left:200px;
+    margin-right:200px;
+    padding:10px 500px 10px 500px;
+} */
+
+/* div.content-blog{
+    margin-left:200px;
+    margin-top:10px;
+    margin-right:200px;
+    margin-bottom:40px;
+
+    border:solid 2px;
+    padding-top:15px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-family:poppins;
+} */
+ body{
+    font-family:'Poppins',sans-serif;
+ }
+
+ .container{
+    width:1400px;
+    margin:0 auto;
+ }
+
+ h1{
+    background-color:lightgray;
+    text-align:center;
+ }
+ section.about-me,section.about-lily{
+    border:2px solid crimson;
+ }
+ about-me{
+    margin-bottom:40px;
+ }
+
+ section h3{
+    text-transform:uppercase;
+    color:darkred;
+}

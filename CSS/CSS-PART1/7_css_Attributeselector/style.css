@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+input[type="password"]{
+    color:purple;
+}
+input[type="text"]{
+    color:black;
+    background-color: aqua;
+}
+
+a[href="https://google.co.in"]{
+    color:red;
+}
+/* Universal Selector used for particular word */
+a[href*="google"]{
+    color:brown;
+}
+
+/* caret symbol */
+/* a[href ^="https"]{
+    color:green;
+} */
+ a[href $=".com"]{
+    color:red;
+ }
+ input[type^="t"]{
+    color:green;
+ }
+ input[password^="t"]{
+    color:rebeccapurple;
+ }
