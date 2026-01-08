@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family:"Poppins",sans-serif;
+    color:#444;
+}
+
+hr{
+    width:500px;
+    margin-left:0px;
+    border:0.5px black;
+}
+
+.box1{
+    box-sizing:border-box;
+    width:500px;
+    background-color: lightblue;
+    border:10px solid red ;
+    padding:50px;
+    margin-bottom: 50px;
+}
+
+.box2{
+     box-sizing: content-box;/*default */
+     width:500px;
+     background-color: lightblue;
+     border:10px solid red;
+     padding:50px;
+
+}

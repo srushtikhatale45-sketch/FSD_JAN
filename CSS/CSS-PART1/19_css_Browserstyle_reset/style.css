@@ -1,0 +1,12 @@
+/* default Browser styles and CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin:10px
+}
+p{
+    margin:8px 20px;
+}

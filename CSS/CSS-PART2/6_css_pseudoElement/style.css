@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Poppins",sans-serif;
+}
+/* Note:First letter and first line pseudo Elements
+works with block level element only
+
+first-letter,first-line,selection,first-word */
+p::first-letter{
+    display:inline-block;
+    font-size:32px;
+}
+p::selection{
+    background:black;
+    color:white;
+}
+h1::selection{
+    background: black;
+    color:white;
+}
+/* p::first-line{
+    background: black;
+    color:white;
+} */
+
+/* before and after pseudo Element */
+.para1::before{
+    content:'Hello ! Paragraph One.' ;
+    color:purple;
+    border:2px solid black;
+    display:block;
+    margin:5px;
+    padding:5px;
+}
+.para2::after{
+    content:'End of Paragraph One';
+    color:purple;
+    border: 2px solid black;
+    display: block;
+    margin:5px;
+    padding:5px;
+
+}
+.main-heading::after{
+    content:'Hello I welcome to website';
+    color:purple;
+    border: 2px solid black;
+    display:block;
+    margin:5px;
+    padding:5px;
+}
+
+/* cannot add before and after where there is no content in it like empty div p or h or after/before img,br,input
+all replaced elements:
+we cannot use i like
+iframe
+video
+embed
+img
+option
+audio
+canvas
+object
+applet */

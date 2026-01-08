@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Gravitas+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Limelight&family=Outfit:wght@100..900&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+/* body{
+    font-family: "Lato", sans-serif;
+} */
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Pseudo Classes:
+What are the pseudo classes?
+A pseudo classes is used to define a special state of an element.
+
+for example,it can be used to:
+
+Style an element when a user mouse a user mouses over it style visited and unvisited links differently style an element when it gets focus */
+
+/* visited state -->color changed*/
+/* Hover state */
+/* Link ,Visited,Hover,Active */
+/* ctrl + shift + delete --> clear browsing data cache */
+
+/* a:visited{
+    color:red;
+}
+a:link{
+    color:orange;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color:black;
+}
+p:hover{
+    color:green;
+}
+p:active{
+    color:red;
+}
+input:focus{
+    padding:10px;
+    outline:none;
+    border:2px solid green;
+}
+input:required{
+    color: red;
+} */

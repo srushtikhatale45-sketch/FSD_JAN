@@ -1,32 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    font-family: "Poppins", sans-serif;
+    font-family : "Poppins",sans-serif;
     color:#444;
-
+    padding:0px 40px;
+}
+a{
+    color:#444;
+    text-decoration:none;
+}
+nav{
+    background-color:#cdcdcd;
+    /* border:2px solid red; */
 }
 
-hr{
-    width: 500px;
-    margin-left:0px;
-    border:0.5px dashed black;
+nav ul{
+    /* border:2px solid green; */
+    padding-left:0px;
+    text-align:center;
+}
+nav li{
+    margin:15px 20px;
+    list-style-type:none;
+    border-bottom:1px solid #444;
+    display:inline-block;
+    font-size:20px;
+    text-transform:uppercase;
 }
 
-.box1{
-   box-sizing:border-box ;
-   width: 500px;
-   background-color: lightblue;
-   border: 10px solid red;
-   padding:50px;
-   margin-bottom: 50px;
+section{
+    margin-top:50px;
 }
-
-
-.box2{
-    box-sizing: content-box;/*default*/
-    width: 500px;
-    background-color: lightblue;
-    border: 10px solid red;
-    padding:50px;
-    
- }
+h1,h2,h3{
+    color:#222;
+}
+h2{
+    border-bottom:1px solid;
+}

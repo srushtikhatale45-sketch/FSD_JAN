@@ -4,20 +4,27 @@ More Specificity:
 
 inline style selector>id selector>class selector>element selector */
 
-/* #h1id{
+#h1id{
     color:blueviolet;
-} */
+} 
 
-/* .h1class{
+.h1class{
     color:brown;
-} */
+} 
 
+h1{
+    color:chartreuse;
+} 
 /* classes-->
 when two classes are declared
 we considered:
 which is recently declared and override the above one */
 
-.heading{
+/* .h1class{
+    color:rebeccapurple;
+}  */
+  
+/* .heading{
     color:magenta;
 }
 .h1class{
@@ -25,22 +32,22 @@ which is recently declared and override the above one */
 }
 h1{
     color:chartreuse;
-}
+} */
 
 /* classes-->
 when two classe are declared here we considered:
 more specific h1.heading because it is more specific than h1 element heading class should be changed other than h1 class */
-h1.heading{
+/* h1.heading{
     color:cadetblue;
-}
+} */
 /* 0,0,1,0--->11 */
-.h1class{
+/* .h1class{
     color:red;
-}
+} */
 /* 0,0,1,0--->10 */
-h1{
+/* h1{
     color:chocolate;
-}
+} */
 
 /* "Specificity"
 
@@ -49,6 +56,8 @@ More Specificity:
 inline style selector>id selector>class selector>element selector */
 
 /* how to calculate the specificity */
+
+
 div#container ul.my-games li{
     color:rgb(78,23,197);
     background-color: bisque;

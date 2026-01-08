@@ -29,3 +29,4 @@ a[href*="google"]{
  input[password^="t"]{
     color:rebeccapurple;
  }
+ /* * is for all,^ is for start ,and $ is for end */
