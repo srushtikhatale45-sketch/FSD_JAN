@@ -6,17 +6,19 @@ body{
 
 /* Pseudo Class */
 /* First Child */
-p:first-child{
-    /* color:red; */
-}
+/* p:first-child{
+    color:red;
+} */
 /* If p is existing and its first-child of its parent it changes */
 /* First of Type */
-p:first-of-type{
+
+/* p:first-of-type{
     color:red;
-}
-p:last-child{
-    /* color:green; */
-}
-p:last-of-type{
+}  */
+ /* p:last-child{
+     color:green; 
+} */
+ 
+ p:last-of-type{
     color:green;
 }

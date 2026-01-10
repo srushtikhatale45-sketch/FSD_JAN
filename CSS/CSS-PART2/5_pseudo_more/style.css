@@ -5,24 +5,26 @@
 /*  
  :not(p){
     color:blue;
- }
+ } */
 
  body header:not(.fancy){
     color: aquamarine;
- } */
-  div:empty{
+ } 
+
+  /* div:empty{
     background-color: #222222;
     border:2px solid red;
     width:100px;
     height: 100px;
-  }
+  } */
   /* root==>which is html */
   /* specificity of root >html eg.class >element */
-:root{
-    background:#333;
-    color:#eee;
-}
+/* 
 html{
     background: red;
     color:white;
 }
+:root{
+    background:#333;
+    color:#eee;
+} */

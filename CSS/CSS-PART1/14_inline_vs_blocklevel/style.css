@@ -40,7 +40,7 @@ h1{
     padding:50px;
 } */
 
-No need to give padding at top and bottom for inline Element  it means the things only left -right
+/* No need to give padding at top and bottom for inline Element  it means the things only left -right */
 
 a{
     padding:0px 50px;

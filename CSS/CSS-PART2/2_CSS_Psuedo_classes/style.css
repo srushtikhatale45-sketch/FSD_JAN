@@ -24,13 +24,15 @@ Style an element when a user mouse a user mouses over it style visited and unvis
 /* Hover state */
 /* Link ,Visited,Hover,Active */
 /* ctrl + shift + delete --> clear browsing data cache */
-
-/* a:visited{
+/* 
+a:visited{
     color:red;
-}
-a:link{
+} */
+
+input:focus{
     color:orange;
 }
+/*
 a:hover{
     color:green;
 }

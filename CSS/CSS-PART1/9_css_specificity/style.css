@@ -35,7 +35,7 @@ h1{
 } */
 
 /* classes-->
-when two classe are declared here we considered:
+when two classes are declared here we considered:
 more specific h1.heading because it is more specific than h1 element heading class should be changed other than h1 class */
 /* h1.heading{
     color:cadetblue;
@@ -75,6 +75,7 @@ div#container ul.my-games li.favourite{
 /* how to calculate the specificity */
 /* div#container ul.my-games li */
 /* 0,1,1,3 -->113 */
+/* Inline,Id,class,element */
 
 /* .favourite --> old specificity*/
 /* 0,0,1,0  -->10 */

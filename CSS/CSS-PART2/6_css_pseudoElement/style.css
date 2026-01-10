@@ -6,25 +6,29 @@ body{
 works with block level element only
 
 first-letter,first-line,selection,first-word */
-p::first-letter{
+/* p::first-letter{
     display:inline-block;
     font-size:32px;
-}
-p::selection{
+    
+} */
+
+
+ p::selection{
     background:black;
     color:white;
 }
+
 h1::selection{
     background: black;
     color:white;
-}
+} 
 /* p::first-line{
     background: black;
     color:white;
 } */
 
 /* before and after pseudo Element */
-.para1::before{
+/* .para1::before{
     content:'Hello ! Paragraph One.' ;
     color:purple;
     border:2px solid black;
@@ -48,7 +52,7 @@ h1::selection{
     display:block;
     margin:5px;
     padding:5px;
-}
+} */
 
 /* cannot add before and after where there is no content in it like empty div p or h or after/before img,br,input
 all replaced elements:
