@@ -1,0 +1,11 @@
+.parent{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.child{
+    border: 2px solid rgb(227, 144, 9);
+    width: 200px;
+    height: 200px;
+}
