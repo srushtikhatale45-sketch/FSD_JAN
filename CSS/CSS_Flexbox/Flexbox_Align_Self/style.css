@@ -17,7 +17,7 @@ body{
 }
 .box-1{
     background: lightblue;
-    align-self: flex-start;
+    align-self: flex-end;
 }
 .box-2{
     background: lightcoral;
