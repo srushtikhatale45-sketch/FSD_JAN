@@ -25,7 +25,7 @@ p{
 /* Media Queries */
 /* as soon as width gets lower than 500px font size changes */
 /* Break point -->max-width:768px is called */
-@media(max-width:500px{
+@media(max-width:500px){
     html{
         font-size: 5px;
     }

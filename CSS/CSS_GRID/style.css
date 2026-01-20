@@ -85,7 +85,7 @@ body{
 .item4{
     grid-column:1/-1;
 }
-## Grid is layout Design Tool:##
+/* ## Grid is layout Design Tool:##
       ### Grid Container Properties:
 
 1.grid-template-columns:1fr 2fr 1fr;
@@ -136,4 +136,5 @@ to keep one column fixed
     7.grid-row-start:1;
     8.grid-row-end:4;
     9.grid-row:1/4;
-    10.grid-row:1/span 3;
+    10.grid-row:1/span 3; 
+    */

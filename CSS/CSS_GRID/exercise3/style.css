@@ -1,0 +1,39 @@
+/* 
+In CSS GRID is very powerful two-dimensional layout system
+Flexbox is one-dimensional layout system.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Gravitas One", serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 100px auto; /*To center*/
+
+    display:grid;
+    gap: 5px;
+
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    /* fraction means remaining space will occupied equal in notified fractions */
+    /* grid-template-rows: 100px 100px 100px; */
+    /* grid-auto-rows: 50px; Used More often */
+    /* gap:5px; */
+
+    /* variable columns */
+    /* auto-fill,auto-fit */
+    /* grid-template-columns: repeat(autofill, 200px); */
+
+    /* minmax(min,max) */
+    /* grid-template-columns: repeat(autofill,minmax(150px,1fr)); */
+    /* gap: 10px; */
+}
+.item{
+    border: 2px solid lightcoral;
+    padding: 2px;
+}
