@@ -12,12 +12,15 @@ body{
     background-color: #444;
     color: #fff;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: 64px 1fr 64px;
     height: 100vh;
     gap: 1rem;
 
-    grid-template-areas: "header header" "content sidebar" "footer footer";
+    grid-template-areas: 
+    "header header header" 
+    "content sidebar sidebar" 
+    "footer footer footer";
 }
 header{
     grid-area: header;

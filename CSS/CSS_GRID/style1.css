@@ -50,7 +50,7 @@ Flexbox is one-dimensional  layout system.
     /* align-content:center; */
 
     /* place-content: vertical horizontal; */
-    /* place-content: center space-between; */
+    place-content: center space-between;
 
  }
 
