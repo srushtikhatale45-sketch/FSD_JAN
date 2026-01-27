@@ -33,12 +33,14 @@ var value1 = 10;
 // console.log(value1**0.5);//10 root 2 ,,-->0.5=1/2
 
 // 2.you can use only underscore_ or  ($) dollar symbol from special symbol only this are valid.
-
-// firstname_="abc";//error not allowed at end
-// _firstname="abc";//error not allowed at start
-
-// firstname$="abcd"; //error not allowed at end
-// $firstname="abcd";//error not allowed at start
+// var _firstname;
+// _firstname="abc";
+// _firstname="abc";
+// firstname$="abcd"; 
+// console.log(_firstname)
+// var $firstname;
+// $firstname="abcd";
+// console.log($firstname)
 
 // #3.You can use the _underscore inbetween space for varisable declaration.
 // first Name="Srushtis";//error not allowed 
