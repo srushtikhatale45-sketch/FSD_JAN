@@ -24,8 +24,8 @@ printpersonDetails(person);
 
 */
 
-/*
 
+/*
 const person = {
     firstname :"Srushti",
     gender : "female",
@@ -39,23 +39,23 @@ function printpersonDetails({firstname,gender,age}){
 }
 printpersonDetails(person);
 
+
 */
 
-
 /// Nothing was trying some thing
-// const person = {
-//     firstname :"Srushti",
-//     gender : "female",
-//     age : 500,
-// }
-// function printpersonDetails(person){
+const person = {
+    firstname :"Srushti",
+    gender : "female",
+    age : 500,
+}
+function printpersonDetails(person){
   
-//     for(let data of person){
+    for(let data of person){
 
-//         console.log(data); // Srushti
-//     }
-// }
-// printpersonDetails(...person);
+        console.log(data); // Srushti
+    }
+}
+printpersonDetails(person);
 
 /*
 

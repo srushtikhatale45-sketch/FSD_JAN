@@ -26,9 +26,9 @@ function addtwo(a,b){
 // const ans = addtwo(4);
 // console.log(ans); // 4
 
+
 */
 
-/*
 
 //  ES6 (how we handled undefined variables)
 
@@ -44,4 +44,3 @@ function addtwo(a,b=0){
 const ans = addtwo(4,8);
 console.log(ans); // 12
 
-*/

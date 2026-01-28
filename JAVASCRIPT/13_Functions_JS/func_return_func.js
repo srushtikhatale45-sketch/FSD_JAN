@@ -15,16 +15,18 @@ function myfunc(){
     return hello;
 }
 
-const ans = myfunc();
-console.log(ans);
+// const ans = myfunc();
+// console.log(ans);
 
 // calling the function returned function
 // ans();
+const ans = myfunc();
 console.log(ans());
+// console.log(ans());
 
 
 // Higher Order Functions 
 
 // Call back
-// or function returning funcn
+// or function returning func
 // or doing both

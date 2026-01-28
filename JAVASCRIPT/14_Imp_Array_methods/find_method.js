@@ -8,7 +8,7 @@ the function for empty elements.
 
 
 */
-/*
+
  const myArray = ["hello","catt" ,"dog","lion"];
 
  function islength3(string){
@@ -23,7 +23,7 @@ the function for empty elements.
 
  console.log(ans);
 
- */
+
 
 
 

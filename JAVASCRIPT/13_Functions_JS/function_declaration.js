@@ -101,4 +101,24 @@ function addition(num1,num2){
   const res = linearSearch(arr,10);
   console.log(res);
   
+  /*
   
+  function sub(a,b){
+    return a-b;
+
+  }
+  const ans = sub(4,5);
+  console.log(ans);
+
+  function array(a){
+    if(a==5){
+        console.log("The number is 5")
+    }else if(a==4){
+        console.log("The number is 4")
+    } else{
+        console.log("The number is not 4,5")
+    }
+  }
+  const num = array(6);
+  console.log(num);
+  */

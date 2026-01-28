@@ -63,6 +63,7 @@ console.log(firstname);
 //--------------------------------------------------------------------
 // let firstname="abcd"; // case 2:
 //can be accessed through lexical scope by
+/*
 function myApp(){
     if(true){
         let firstname = "Srushti"; // case 1: block scoped
@@ -81,3 +82,30 @@ function myApp(){
 }
 
 myApp();
+*/
+// BlockScope
+{
+    const name="Srushti";
+    let add="Nashik";
+    var age = 22;
+    console.log(name);
+    console.log(add);
+    console.log(age);
+}
+// console.log(name);
+// console.log(add);
+console.log(age);
+
+// FunctionScope
+function func(){
+    const name="Srushti";
+    let add="Nashik";
+    var age = 21;
+    console.log(name);
+    console.log(add);
+    console.log(age);
+}
+func();
+// console.log(name);
+// console.log(add);
+// console.log(age);
