@@ -52,3 +52,5 @@ age1 =Number(age1);
 console.log(typeof age1);
 
 
+let var1 = "string";
+console.log(typeof var1);

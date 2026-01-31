@@ -58,3 +58,6 @@ the unshift () function adds one or more items to the array.
 // ---------------------------------------------------------------
 
 //  Push pop is faster than shift unshift.
+
+let a =["ABHG","Ssbyt",1.2,3,5,true ,false]
+console.log(Array.isArray(a));

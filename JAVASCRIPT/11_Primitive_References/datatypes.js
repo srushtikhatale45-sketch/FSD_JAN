@@ -7,7 +7,7 @@ console.log("value of num1 is",num1);
 console.log("value of num2 is",num2);
 
 num1++;
-
+// num2++;
 console.log("after incrementing");
 console.log("value of num1 is",num1);
 console.log("value of num2 is",num2);

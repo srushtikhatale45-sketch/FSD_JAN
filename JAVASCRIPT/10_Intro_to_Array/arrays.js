@@ -14,10 +14,10 @@ console.log(arr[2]);
 // String array
 let names = ["Srushti","sfhgasd","bnuyrgy","xhcvuts","bshgcfdg"]
 console.log(names);
-console.log(names[0]);
-console.log(names[1]);
-console.log(names[2]);
-console.log(names[3]);
+console.log(names[0]);//Srushti
+console.log(names[1]);//sfhgasd
+console.log(names[2]);//bnuyrgy
+console.log(names[3]);//xhcvuts
 // ---------------------------------------------------------------
 // In array you can store mutliple datatype at once
 let mixed=[1,2,3,3.23,"hgsdfbc",null,undefined];
@@ -30,3 +30,7 @@ let fruits = ["apple","mango","grapes"];
 console.log(fruits);
 fruits[1]="banana";
 console.log(fruits)
+/*
+let arr1=[0,1,23,"Srushti","abc",true,false,null]
+console.log(arr1[5]);
+*/

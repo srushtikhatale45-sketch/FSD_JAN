@@ -28,3 +28,8 @@ The template string placeholders have the format ${expression} ,
 for example `The number is ${number}` .
 
 */
+/*
+let name1 = "Srushti";
+let name2 = "Khatale";
+console.log(`My Name is ${name1} and sirname is ${name2}`);
+*/

@@ -9,6 +9,7 @@ where the function was created instead of where it was
 invoked.
 
 */
+/*
 
 const myvar = "value1";
 
@@ -24,7 +25,7 @@ function myApp(){
 }
 
  myApp();
-
+*/
 
 /*
 
@@ -37,9 +38,9 @@ the lexical scope maintains in JavaScript.
 // https://www.educative.io/answers/lexical-scope-in-javascript
 
 */
+
+
 /*
-
-
 function myApp(){
      
     const myvar = "value1";
@@ -47,23 +48,24 @@ function myApp(){
         const myvar= "value59";
         console.log("inside myFunc",myvar);
     
-    // const myfunc2 = function(){
-    //     const myvar="value2";
-    //     console.log("inside myFunc",myvar);
-    // }
-    // const myfunc3 = () =>{
-    //     console.log("inside myFunc",myvar);
-    // }
-    // myfunc2();
-    // myfunc3();
+    const myfunc2 = function(){
+        const myvar="value2";
+        console.log("inside myFunc",myvar);
+    }
+    const myfunc3 = () =>{
+        console.log("inside myFunc",myvar);
+    }
+    myfunc2();
+    myfunc3();
     }
     console.log(myvar);
     myfunc();
    
 }
-
+myApp();
 */
-/*
+
+
 var a = 10; // variable a assigned to 10
 
 var func = function (){ // outermost function
@@ -78,4 +80,3 @@ var func = function (){ // outermost function
 }
 func(); // invoke function func 
 console.log("only a is accessible (global):", a);
-*/

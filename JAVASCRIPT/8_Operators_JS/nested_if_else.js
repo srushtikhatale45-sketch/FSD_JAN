@@ -20,7 +20,8 @@ else{
 Window:prompt() method - web APIs |MDN
 prompt() instructs the browser to display  a dialog with an optional message prompting the user either submits the text or cancels dialog
 */
-let tempInDegree = 15;
+let tempInDegree = +prompt("Guess the temperature");
+console.log(typeof tempInDegree,tempInDegree)
 if(tempInDegree < 0){
     console.log("Extremely cold outside");
 }

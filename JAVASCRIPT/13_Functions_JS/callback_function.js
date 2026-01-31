@@ -11,8 +11,6 @@ myfunc([1,2,3]);
 myfunc({name:"abc",age:22});
 */
 //--------------------------------------------------------
-
-
 /*
 function myfunc2(){
     console.log("inside my function 2.");

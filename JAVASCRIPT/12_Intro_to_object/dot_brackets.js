@@ -6,6 +6,7 @@
 
 // Here person hobbie key has space in between 
 // we cannot store the key without adding string literals
+*/
 /*
 const person ={
     name:"Srushti",
@@ -31,7 +32,7 @@ const person ={
     "person hobbie":["cooking" ,"Trekking","games"]
 }
 // Dot Notation (adding data with key variable)
-person.key = "abcd1233@gmail.com";
+// person.key = "abcd1233@gmail.com";
 
 //here while adding data with dot notation
 // the key variable it self is considered key here and 
@@ -44,4 +45,4 @@ person[key] = "abcd1233@gmail.com";
 console.log(person);
 
 // here when we give key variable it fetches its value and 
-// value is assigned as key and to it email data in person object.
+// value is assigned as key and to it email data in person object.*/

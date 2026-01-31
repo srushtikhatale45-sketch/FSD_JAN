@@ -4,7 +4,7 @@
 const arr1 = [ 1,2,3];
 const arr2 = [5,6,7];
 
-const newarr = [...arr1];
+// const newarr = [...arr1];
 // const newarr = [...arr1,...arr2];
 // const newarr = [...arr1,arr2]; 
 // whole array object added as third element 
@@ -12,7 +12,7 @@ const newarr = [...arr1];
 // const newarr = [...arr1,...arr2,82,13];
 
 
-// const newarr = ["abc"];
+const newarr = ["abc"];
 // const newarr = [..."abc"];
 // Spreading String and adding Each Element 
 // On seperate Index
@@ -41,8 +41,8 @@ console.log(newarr);
 /// -------------------------------------------------------------------------------
 
 
-/*
 
+/*
 // Cloning in Objects
 const obj1 = {
     key1 : "value1",
@@ -53,8 +53,8 @@ const obj2 = {
     key4 : "value4",
 };
 
-// const newobj = {...obj1}
-const newobj = {...obj1,...obj2};
+const newobj = {...obj1}
+// const newobj = {...obj1,...obj2};
 
 console.log(newobj);
 
@@ -66,6 +66,7 @@ console.log(newobj);
 // it will override the values if two objects have same key
 // But there are two cases according
 // to they way there are added and cloned in sequence
+
 const obj1 = {
     key1 : "value1",
     key2 : "value2",

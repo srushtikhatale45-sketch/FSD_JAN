@@ -18,7 +18,6 @@ const charArr = ["A", "M", "A", "N"];
 const res = charArr.toString().replaceAll(",", "");
 console.log(res);
 */
-
 /*
 // slice method
 // doesnt modify orignal
@@ -39,11 +38,12 @@ console.log(res2);
 // (start,deletecount,anythingtoAdd)
 console.log(num);
 num.splice(3, 0, "Abc");
+console.log(num);
 num.splice(3, 2, "krk");
 console.log(num);
+
 */
 
-/*
 // join method
 const charArr = ["A", "M", "A", "N"];
 const res = charArr.toString().replaceAll(",", "/");
@@ -82,7 +82,7 @@ console.log(newArray1);
 // map
 // same as foreach
 // returns new Array
-*/
+
 
 // =================================================================================
 
@@ -95,7 +95,7 @@ const evenArray = number.filter((value, idx) => {
 });
 
 console.log(evenArray);
-
+/*
 let newArray = ["N", 1, 3, 4, 5, "A", 87, { name: "Newton" }];
 newArray.forEach((e, index) => {
   if (typeof e === "object") {
@@ -165,3 +165,4 @@ console.log(str.split(" "));
 str = "4";
 console.log(str.padStart(5, "0"));
 console.log(str.padEnd(5, "0"));
+*/

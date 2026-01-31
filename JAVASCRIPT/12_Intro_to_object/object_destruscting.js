@@ -1,7 +1,7 @@
 
 // #################### Object Destructuring ###################
-
 /*
+
 const band = {
     bandName : "led Zepplin",
     famousSong : "Stairway to heaven",
@@ -11,9 +11,8 @@ const bandName = band.bandName;
 const famousSong = band.famousSong;
 
 console.log(bandName,famousSong);
+
 */
-
-
 //  ############ ###########  ############# #############
 
 // Other way to Destructure
@@ -52,12 +51,12 @@ bandName = "queen";
 // here it is changed
 
 console.log(bandName,famousSong);
-*/
 
+*/
 //  ############ ###########  ############# #############
 
-/*
 
+/*
 const band = {
     bandName : "led Zepplin",
     famousSong : "Stairway to heaven",

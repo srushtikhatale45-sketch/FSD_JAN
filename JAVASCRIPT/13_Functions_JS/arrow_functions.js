@@ -124,4 +124,18 @@ console.log(isEven(2));
   // Above All are function expression :
   // anynomous function --> is assigned const variable
   // to call the function .
-  
+  // Arrow function
+  const function1=(num)=>{
+    return num=num+1;
+  }
+  console.log(function1(2));
+  // Function Expression
+  const function2= function(num){
+    return num=num+1;
+  }
+  console.log(function2(4));
+// Simple Function
+  function function4(num){
+    return num = num+1;
+  }
+  console.log(function4(6));

@@ -18,9 +18,9 @@ console.log(typeof person)
 
 //-------------------------------------------------------------
 // // With help of Bracket Notation
-// for(let key in person){
-//     console.log(person[key]);
-// }
+for(let key in person){
+    console.log(person[key]);
+}
 // With help of Bracket Notation key : value pairs
 for(let key in person){
     console.log(key,":",person[key]);

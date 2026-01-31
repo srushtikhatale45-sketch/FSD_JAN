@@ -9,8 +9,8 @@ function addtwo(a,b){
 // const ans = addtwo(4,5);
 // console.log(ans); //  9
 
-const ans = addtwo(4);
-console.log(ans); // NaN ---> 4+ undefined
+const re = addtwo(4);
+console.log(re); // NaN ---> 4+ undefined
 
 */
 
@@ -23,8 +23,8 @@ function addtwo(a,b){
     return a+b;
 }
 
-// const ans = addtwo(4);
-// console.log(ans); // 4
+const ans = addtwo(4);
+console.log(ans); // 4
 
 
 */

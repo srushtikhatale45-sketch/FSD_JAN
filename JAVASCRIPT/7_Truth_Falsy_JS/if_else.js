@@ -16,3 +16,14 @@ if(num % 2 == 0){
 else{
     console.log("odd");
 }
+
+let count = 14;
+if(count>15){
+    console.log("It is largest count");
+}
+else if(count==15){
+    console.log("It is equal to count");
+}
+else{
+    console.log("Count is having less value");
+}

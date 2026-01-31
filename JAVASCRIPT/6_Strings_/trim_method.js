@@ -33,3 +33,7 @@ console.log(newString);
 
 console.log(newString.length);//7
 console.log(firstName.length);//7
+
+let name= "              ancdkhyg";
+name = name.trim();
+console.log(name.length);

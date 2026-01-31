@@ -48,7 +48,7 @@ const person = {
     gender : "female",
     age : 500,
 }
-function printpersonDetails(person){
+function printpersonDetails(...person){
   
     for(let data of person){
 

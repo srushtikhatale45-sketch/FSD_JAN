@@ -16,13 +16,14 @@ const app = () => {
      const multiply = (num1,num2) => num1*num2; 
     
      // actions of Main Function:
-    console.log("inside app");
+   //  console.log("inside app");
     // Calling Inside Function
     myfunction();
     // Calling Inside Function
     console.log(addition(5,3));
     // Calling Inside Function
     console.log(multiply(5,3));
+    console.log("inside app");
 
 }
 

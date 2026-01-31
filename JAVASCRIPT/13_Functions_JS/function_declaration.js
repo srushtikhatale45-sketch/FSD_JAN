@@ -99,7 +99,7 @@ function addition(num1,num2){
   }
   const arr = [1,2,3,4,5,6,7,8,9,10];
   const res = linearSearch(arr,10);
-  console.log(res);
+  console.log(res);//9
   
   /*
   

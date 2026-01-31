@@ -5,7 +5,7 @@
 // 1.slice
 // 2.Concat
 // 2.Spread Operator
-/*
+
 let array_1 = ["item1","item2"];
 let array_2 = array_1;
 // let array_2 = ["item1","item2"];
@@ -14,7 +14,7 @@ array_1.push("item3");
 console.log(array_1 == array_2);
 console.log(array_1);
 console.log(array_2);
-*/
+
 /*
 // Cloning with slice
 // Fastest cloning method
@@ -72,6 +72,7 @@ console.log(array_1);
 console.log(array_2);
 
 */
+/*
 let array_1=["item1","item2"];
 let oneMore = ["item3","item4"];
 let array_2=[...array_1,...oneMore,"item5"];
@@ -80,6 +81,11 @@ array_1.push("item6");
 console.log(array_1 == array_2);
 console.log(array_1);
 console.log(array_2);
+*/
+/*
+clonning methods
+1.slice newarrayname=oldarrayname.slice
+2.concate newarrayname=[].concate([oldarrayname])
+3.spread operator newarrayname= [...oldarrayname]
 
-
-
+*/

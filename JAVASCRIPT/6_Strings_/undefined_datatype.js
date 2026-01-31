@@ -41,6 +41,9 @@ console.log(typeof first);
 // we need to initialize it in case of const.
 console.log(typeof first_Name);
 
+const var1 ="Hello";
+console.log(var1);
+
 
 
 
