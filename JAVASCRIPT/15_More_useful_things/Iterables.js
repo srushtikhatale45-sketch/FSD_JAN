@@ -27,16 +27,16 @@ customize their iteration behavior, such as what values are looped
     // #### On Strings We can Apply For of Loops as they are Iterables.
     // #### Array is also Iterable.
 
-// const first_name = "Khatale";
-// for(let ch of first_name){
-//     console.log(ch);
-// }
+const first_name = "Khatale";
+for(let ch of first_name){
+    console.log(ch);
+}
 
-// const numbers = [1,2,3,45,6,7,7];
-// for(let num of numbers){
-//     console.log(num);
-// }
-//  Objects are not Iterables 
+const numbers = [1,2,3,45,6,7,7];
+for(let num of numbers){
+    console.log(num);
+}
+// //  Objects are not Iterables 
 // const users = {'key1':'value1',
 //               'key2':'value2',
 //               'key3':'value3',
@@ -68,6 +68,6 @@ You can use the JavaScript Array. isArray() method to check whether
  an object (or a variable) is an array or not. This method returns 
  true if the value is an array; otherwise returns false . */
 
-const first_name = "Srushti";
+// const first_name = "Srushti";
 console.log(first_name.length);
 console.log(first_name[3]);

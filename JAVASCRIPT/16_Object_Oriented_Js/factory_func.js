@@ -78,8 +78,8 @@ function createUser(first_name,last_name,email,age,address){
     return user;
 }
 const user1 = createUser("Srushti","Khatale","srushtikhatale45@gmail.com",21,"home,Building,pincode,state");
-// console.log(user1);
-// const is18 = user1.is18();
-// console.log(is18);
-// const about = user1.about();
-// console.log(about);
+console.log(user1);
+const a = user1.is18();
+console.log(a);
+const about = user1.about();
+console.log(about);

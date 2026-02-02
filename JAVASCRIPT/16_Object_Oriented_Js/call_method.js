@@ -12,19 +12,19 @@ an argument to the function.
 // call(objectInstance,arg1,argN);
 
 // Example:
+*/
+// let nameObj = {
+//     name:"Tony",
+// }
 
-let nameObj = {
-    name:"Tony",
-}
-
-let printName ={
-    name :"steve",
-    sayHi:function(age){
-        console.log(this.name + " age is " + age);
-    }
-}
-printName.sayHi.call(nameObj,42);
-// Output: Tony age is 42
+// let printName ={
+//     name :"steve",
+//     sayHi:function(age){
+//         console.log(this.name + " age is " + age);
+//     }
+// }
+// printName.sayHi.call(nameObj,42);
+// // Output: Tony age is 42
 
 
 function Hello(){
@@ -55,7 +55,6 @@ user1.about.call();//will be undefined undefined
 // passing argument from call method
 user1.about.call(user1,"guitar","mozart");
 
-*/
 ///-------------------------------------------------------------------------------------
 
 // So instead of Above pattern we can do is
@@ -77,4 +76,20 @@ about.call(user4,"guitar","bach");
 // the this keyword of about function will be handled 
 // hobby and favMusician is guitar and bach respectively here as
 // two args were passed
- 
+
+ function info(address,pincode){
+    console.log(this.name,this.age,address,pincode);
+ }
+
+ const u1={
+    name:"Srushti",
+    age:21,
+ }
+
+ const u2={
+    name:"Sakshi",
+    age:20,
+ }
+ const u3 = info.bind(u1,"Nashik",422212);
+//  console.log(u3);
+ u3();

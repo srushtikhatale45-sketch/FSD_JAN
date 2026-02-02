@@ -11,8 +11,8 @@ user1.about();
 
 // user1.about();//Srushti 21
 // Here this of about is pointing to object instance of user1
-const myfunc = user1.about;
-myfunc();
+// const myfunc = user1.about;
+// myfunc();
 // we assigned about function to myfunc
 /*
      what is actually happening is :
@@ -34,7 +34,7 @@ myfunc();
 // so lets use bind
 
 
-const myfunc1 = user1.about.bind(user1);
-myfunc1();
+// const myfunc1 = user1.about.bind(user1);
+// myfunc1();
 
 // Problem solved :

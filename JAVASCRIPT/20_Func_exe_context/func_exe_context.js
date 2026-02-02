@@ -12,7 +12,7 @@ console.log(foo);
     return fullName;
  }
 
-const personName = getFullName("harshit","sharma");
+const personName = getFullName("Srushti","Khatale");
 console.log(personName);
 function func1(){
     console.log("Hello");

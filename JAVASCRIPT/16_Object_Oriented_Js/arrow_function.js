@@ -19,3 +19,11 @@ Use of 'this' in Arrow  Function will always define its this value. The this key
 As mentioned earlier, the arrow function doesn't have its own this value. 
 It uses the this value of the enclosing lexical scope.
 */
+const newobj ={
+    name:"Saisha",
+    age:21,
+    ag:()=>{
+        console.log(this.name,this.age);
+    }
+}
+newobj.ag.call();

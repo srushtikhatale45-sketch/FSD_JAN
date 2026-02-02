@@ -8,7 +8,7 @@ apply(objectInstance,argArray)
 
 In the apply method, we pass arguments in the form of an array this is only the 
 primary difference between call and apply.
-
+*/
 let nameObj={
     name:"Srushti"
 }
@@ -20,7 +20,7 @@ let printName ={
     }
 }
 printName.sayHi.apply(nameObj,[42]);
-*/
+
 /*
 Apply-->similar to call
 // Internally apply uses call

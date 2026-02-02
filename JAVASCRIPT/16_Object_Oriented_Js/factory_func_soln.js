@@ -118,20 +118,20 @@ const user1 = createUser("Srushti","Khatale","srushtikhatale45@gmail.com",21,"ho
 const user2 = createUser("Sakhi","Khaire","sakhikhaire45@gmail.com",21,"home,Building,pincode,state");
 const user3 = createUser("Riya","anthal","riyaanthal@gmail.com",21,"home,Building,pincode,state");
 console.log(user1);
-const is18 = user.is18();
+const is18 = user1.is18();
 console.log(is18);
 const about = user1.about();
 console.log(about);
 
-console.log(user2);
-// const is18 = user.is18();
-console.log(is18);
-// const about = user2.about();
-console.log(about);
+// console.log(user2);
+// // const is18 = user.is18();
+// console.log(is18);
+// // const about = user2.about();
+// console.log(about);
 
-console.log(user3);
-// const is18 = user.is18();
-console.log(is18);
-// const about = user3.about();
-console.log(about);
+// console.log(user3);
+// // const is18 = user.is18();
+// console.log(is18);
+// // const about = user3.about();
+// console.log(about);
 
